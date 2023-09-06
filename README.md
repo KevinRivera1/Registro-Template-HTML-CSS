@@ -30,7 +30,7 @@ Este archivo HTML representa una página de registro con campos para ingresar no
 
 ## Demo en Vivo
 
-Puedes ver una demostración en vivo de esta página de registro [aquí](URL_DEMO_EN_VIVO).
+Puedes ver una demostración en vivo de esta página de registro [aquí](https://kevinrivera1.github.io/Registro-Template-HTML-CSS/).
 
 ## Tecnologías Utilizadas
 
