@@ -23,7 +23,10 @@ Este archivo HTML representa una página de registro con campos para ingresar no
 
 *Captura de pantalla de la página de registro:*
 
-![Captura de Pantalla](screenshot.png)
+<div align="center">
+    <img src="./img/registro-page.png" alt="Pantalla Registro">
+</div>
+
 
 ## Demo en Vivo
 
