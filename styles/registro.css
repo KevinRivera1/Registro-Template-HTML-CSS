@@ -7,7 +7,7 @@
 
 body {
     margin         : auto;
-    min-height         : 100vh;
+    min-height     : 100vh;
     display        : flex;
     justify-content: center;
     align-items    : center;
@@ -15,61 +15,60 @@ body {
 }
 
 .registro-div {
-    width        : 330px;
-    height       : 600px;
-    border-radius: 40px;
-    box-shadow   : 10px 10px 20px #cbced1, -10px -10px 20px #ffffff;
-    padding      : 50px 35px 35px 35px;
+    width        : 20.625rem;
+    height       : 37.5rem;
+    border-radius: 2.5rem;
+    box-shadow   : 0.625rem 0.625rem 1.25rem #cbced1, -0.625rem -0.625rem 1.25rem #ffffff;
+    padding      : 3.125rem 2.1875rem 2.1875rem 2.1875rem;
 }
 
 .logo {
     background   : url("../img/logo.jpg") no-repeat center;
-    width        : 80px;
-    height       : 80px;
-    border-radius: 50%;
+    width        : 5rem;
+    height       : 5rem;
+    border-radius: 3.125rem;
     margin       : 0 auto;
-    box-shadow   : 0px 0px 2px #5f5f5f, 0px 0px 0px 5px #ecf0f3,
-        10px 10px 20px #a7aaaf, -10px -10px 20px #ffffff;
+    box-shadow   : 0 0 0.125rem #5f5f5f, 0 0 0 0.3125rem #ecf0f3, 0.625rem 0.625rem 1.25rem #a7aaaf, -0.625rem -0.625rem 1.25rem #ffffff;
 }
 
 .titulo {
     text-align    : center;
-    font-size     : 28px;
+    font-size     : 1.75rem;
     font-weight   : 700;
-    letter-spacing: 0.5px;
-    padding-top   : 24px;
+    letter-spacing: 0.03125rem;
+    padding-top   : 1.5rem;
 }
 
 .subtitulo {
     text-align    : center;
-    font-size     : 15px;
-    margin-top    : 7px;
-    letter-spacing: 3px;
+    font-size     : 0.9375rem;
+    margin-top    : 0.4375rem;
+    letter-spacing: 0.1875rem;
 }
 
 .campos {
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .usuario,
 .contraseña {
-    margin-bottom: 11px;
-    border-radius: 25px;
+    margin-bottom: 0.6875rem;
+    border-radius: 1.5625rem;
     background   : #ecf0f3;
-    box-shadow   : inset 10px 10px 20px #cbced1, inset -10px -10px 20px #ffffff;
+    box-shadow   : inset 0.625rem 0.625rem 1.25rem #cbced1, inset -0.625rem -0.625rem 1.25rem #ffffff;
 }
 
 input {
     border    : none;
     outline   : none;
     background: none;
-    font-size : 14px;
-    margin    : 11px 10px;
+    font-size : 0.875rem;
+    margin    : 0.6875rem 0.625rem;
 }
 
 svg {
-    height: 20px;
-    margin: 2px 15px -5px 15px;
+    height: 1.25rem;
+    margin: 0.125rem 0.9375rem -0.3125rem 0.9375rem;
 }
 
 button {
@@ -77,14 +76,14 @@ button {
     border       : none;
     cursor       : pointer;
     width        : 100%;
-    height       : 50px;
-    margin-top   : 15px;
-    font-size    : 20px;
+    height       : 3.125rem;
+    margin-top   : 0.9375rem;
+    font-size    : 1.25rem;
     font-weight  : 700;
     color        : #fff;
     background   : #24cfaa;
-    border-radius: 25px;
-    box-shadow   : 5px 5px 10px #b1b1b1, -5px -5px 10px #ffffff;
+    border-radius: 1.5625rem;
+    box-shadow   : 0.3125rem 0.3125rem 0.625rem #b1b1b1, -0.3125rem -0.3125rem 0.625rem #ffffff;
     transition   : 0.5s;
 }
 
@@ -97,12 +96,39 @@ button:active {
 }
 
 .link {
-    padding-top: 20px;
+    padding-top: 1.25rem;
     text-align : center;
 }
 
 .link a {
     text-decoration: none;
     color          : #a7aaaf;
-    font-size      : 15px;
+    font-size      : 0.9375rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .registro-div {
+        width    : 20.625rem;
+        max-width: 100%;
+        height   : auto;
+        padding  : 2rem;
+    }
+}
+
+@media screen and (min-width: 300px) {
+
+    .usuario,
+    .contraseña {
+        display: flex;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    svg {
+        height       : 2rem;
+        margin-inline: 1rem;
+    }
 }
